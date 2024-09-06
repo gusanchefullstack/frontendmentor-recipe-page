@@ -50,5 +50,44 @@ h2 {
   align-items: start;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 1fr);
-  gap: 20px;
+}
+
+.nutrition-item {
+  line-height: 150%;
+  color: var(--Stone-600);
+  border-bottom: 1px solid var(--Stone-150);
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nutrition-value {
+  line-height: 150%;
+  color: var(--Brown-800);
+  font-weight: 700;
+  border-bottom: 1px solid var(--Stone-150);
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.instructions ol {
+  list-style-position: outside;
+  color: var(--Brown-800);
+  font-weight: 700;
+}
+
+.instructions ol > li {
+  margin-bottom: 8px;
+  padding-left: 16px;
+  color: var(--Brown-800);
+}
+
+.instructions ol > li > p {
+  display: inline;
+  font-weight: 400;
+  color: var(--Stone-600);
+}
+.instructions ol > li > span {
+  font-weight: 800;
+  color: var(--Stone-600);
 }
