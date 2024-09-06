@@ -4,6 +4,7 @@
   background-color: var(--White);
   margin: 0 auto;
   max-width: 656px;
+  margin-top: 128px;
 }
 
 .recipe-card-container>img {
