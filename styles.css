@@ -1,16 +1,12 @@
 :root {
   --White: hsl(0, 0%, 100%);
-
-  --Stone-100: hsl(30, 54%, 90; %);
+  --Stone-100: hsl(30, 54%, 90%);
   --Stone-150: hsl(30, 18%, 87%);
   --Stone-600: hsl(30, 10%, 34%);
   --Stone-900: hsl(24, 5%, 18%);
-
   --Brown-800: hsl(14, 45%, 36%);
-
   --Rose-800: hsl(332, 51%, 32%);
   --Rose-50: hsl(330, 100%, 98%);
-
 }
 
 * {
@@ -20,12 +16,10 @@
 }
 
 body {
-  font-size: 16px;
-  font-family: "Young Serif", serif;
+  background-color: var(--Stone-100);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  /* font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal; */
+  font-size: 16px;
 }

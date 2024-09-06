@@ -1,3 +1,30 @@
-article {
+.recipe-card-container {
+  padding: 40px 40px;
+  border-radius: 24px;
+  background-color: var(--White);
+  margin: 0 auto;
+  max-width: 656px;
+}
 
+.recipe-card-container>img {
+  margin-bottom: 40px;
+  border-radius: 12px;
+  object-fit: fill;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: var(--Stone-900);
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: var(--Brown-800);
 }
