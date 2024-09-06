@@ -70,24 +70,40 @@ h2 {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
 .instructions ol {
   list-style-position: outside;
   color: var(--Brown-800);
   font-weight: 700;
 }
 
-.instructions ol > li {
+.instructions ol>li {
   margin-bottom: 8px;
   padding-left: 16px;
   color: var(--Brown-800);
 }
 
-.instructions ol > li > p {
+.instructions ol>li>p {
   display: inline;
   font-weight: 400;
   color: var(--Stone-600);
 }
-.instructions ol > li > span {
+
+.instructions ol>li>span {
   font-weight: 800;
   color: var(--Stone-600);
+}
+
+.ingredients>ul {
+  color: var(--Brown-800);
+}
+
+.ingredients>ul>li {
+  margin-bottom: 8px;
+}
+
+.ingredients>ul>li>span {
+  color: var(--Stone-600);
+  line-height: 150%;
+  padding-left: 16px;
 }
